@@ -5,8 +5,8 @@ window.Vue = require("vue");
 import Vuetify from "../plugins/vuetify";
 
 Vue.component(
-    "example-component",
-    require("./components/ExampleComponent.vue").default
+    "app-container",
+    require("./components/AppContainer.vue").default
 );
 
 const app = new Vue({
