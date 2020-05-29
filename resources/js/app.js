@@ -10,6 +10,7 @@ Vue.component(
     "app-container",
     require("./components/AppContainer.vue").default
 );
+Vue.component("login-form", require("./components/LoginForm.vue").default);
 
 const app = new Vue({
     vuetify: Vuetify,
